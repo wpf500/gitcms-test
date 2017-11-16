@@ -1,0 +1,20 @@
+{
+  "pages": [
+    {
+      "id": "page1",
+      "name": "Page 1",
+      "file": "data/page1.json"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "rte": {
+        "type": "string",
+        "title": "Rich text editing"
+      }
+    }
+  },
+  "uiSchema": {
+  }
+}
