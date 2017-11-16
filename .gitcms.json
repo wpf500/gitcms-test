@@ -19,7 +19,14 @@
     "my_html": {
       "ui:field": "rte",
       "rte": {
-        "format": "html"
+        "format": "html",
+        "toolbarConfig": {
+          "display": [
+            "INLINE_STYLE_BUTTONS",
+            "LINK_BUTTONS",
+            "HISTORY_BUTTONS"
+          ]
+        }
       }
     }
   }
