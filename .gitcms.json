@@ -9,6 +9,10 @@
   "schema": {
     "type": "object",
     "properties": {
+      "my_title": {
+        "type": "string",
+        "title": "The title"
+      },
       "my_html": {
         "type": "string",
         "title": "Rich text editing"
