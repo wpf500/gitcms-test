@@ -9,14 +9,14 @@
   "schema": {
     "type": "object",
     "properties": {
-      "rte": {
+      "my_html": {
         "type": "string",
         "title": "Rich text editing"
       }
     }
   },
   "uiSchema": {
-    "type": {
+    "my_html": {
       "ui:field": "rte",
       "rte": {
         "format": "html"
