@@ -16,5 +16,11 @@
     }
   },
   "uiSchema": {
+    "type": {
+      "ui:field": "rte",
+      "rte": {
+        "format": "html"
+      }
+    }
   }
 }
