@@ -1,4 +1,4 @@
 {
   "my_title": "Test tit",
-  "my_html": "<p>Thi sis a test <u>title</u></p>\n<p><strong>Blah!</strong></p>"
+  "my_html": "<p>Thi sis a test <u>title</u><strong>Blah!</strong></p>"
 }
