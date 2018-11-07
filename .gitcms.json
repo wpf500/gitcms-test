@@ -18,18 +18,7 @@
         "title": "Rich text editing"
       },
       "my_image": {
-        "type": "object",
-        "properties": {
-          "width": {
-            "type": "integer"
-          },
-          "height": {
-            "type": "integer"
-          },
-          "url": {
-            "type": "string"
-          }
-        }
+        "type": "string"
       }
     }
   },
@@ -54,7 +43,14 @@
       }
     },
     "my_image": {
-      "ui:field": "image"
+      "ui:field": "image",
+      "sizes": [{
+        "ratio": 0.6,
+        "widths": [300, 600]
+      }, {
+        "ratio": 1,
+        "widths": [500]
+      }]
     }
   }
 }
