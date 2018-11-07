@@ -16,6 +16,20 @@
       "my_html": {
         "type": "string",
         "title": "Rich text editing"
+      },
+      "my_image": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer"
+          },
+          "height": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
       }
     }
   },
@@ -38,6 +52,9 @@
           ]
         }
       }
+    },
+    "my_image": {
+      "ui:field": "image"
     }
   }
 }
