@@ -1,0 +1,35 @@
+pages:
+- id: page1
+  name: Page 1
+  file: data/page1.json
+schema:
+  type: object
+  properties:
+    my_title:
+      type: string
+      title: The title
+    my_html:
+      type: string
+      title: Rich text editing
+    my_html2:
+      type: string
+uiSchema:
+  my_html: &rte
+    ui:field: rte
+    rte:
+      format: html
+      toolbarConfig:
+        display:
+        - INLINE_STYLE_BUTTONS
+        - LINK_BUTTONS
+        - HISTORY_BUTTONS
+        INLINE_STYLE_BUTTONS:
+        - label: Bold
+          style: BOLD
+        - label: Italic
+          style: ITALIC
+        - label: Strikethrough
+          style: STRIKETHROUGH
+        - label: Underline
+          style: UNDERLINE
+  my_html2: *rte
