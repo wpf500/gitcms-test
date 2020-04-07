@@ -51,3 +51,5 @@ uiSchema:
         - label: Underline
           style: UNDERLINE
   my_html2: *rte
+  my_image:
+    ui:field image
