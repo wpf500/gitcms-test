@@ -22,6 +22,15 @@ schema:
             type: string
           test2:
             type: string
+    my_image:
+      type: object
+      properties:
+        url:
+          type: string
+        width:
+          type: number
+        height:
+          type: number
 uiSchema:
   my_html: &rte
     ui:field: rte
