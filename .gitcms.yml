@@ -52,4 +52,4 @@ uiSchema:
           style: UNDERLINE
   my_html2: *rte
   my_image:
-    ui:field image
+    ui:field: image
