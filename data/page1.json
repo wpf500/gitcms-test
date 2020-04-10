@@ -1,8 +1,5 @@
 {
   "my_image": {
-    "url": "/blah/c3a64c6b-1a16-4b57-b4f7-2f4d5ee36e49.jpg",
-    "width": 744,
-    "height": 419
   },
   "my_title": "test if this is okay!",
   "my_html": "<p>Thi sis a test <u>titla</u></p>\n<p><strong>Blah!</strong></p>",
