@@ -1,5 +1,9 @@
 {
-  "my_image": {},
+  "my_image": {
+    "url": "6885c0ff-db63-4d2e-a070-597a49afce75.jpg",
+    "width": 3120,
+    "height": 4160
+  },
   "my_title": "test if this is okay!",
   "my_html": "<p>Thi sis a test <u>titla</u></p>\n<p><strong>Blah!</strong></p>",
   "my_html2": "<p>Another <strong>change</strong></p>"
