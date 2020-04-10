@@ -53,3 +53,5 @@ uiSchema:
   my_html2: *rte
   my_image:
     ui:field: image
+    uploadPath: ./data
+    urlPrefix: /blah/
