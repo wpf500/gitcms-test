@@ -56,3 +56,4 @@ uiSchema:
     uploadPath: ./data
     urlPrefix: /blah/
     aspectRatio: [16, 9]
+    maxWidth: 1200
