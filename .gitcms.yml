@@ -54,5 +54,5 @@ uiSchema:
   my_image:
     ui:field: image
     aspectRatio: [16, 9]
-    maxWidth: 1200,
-    filePrefix: 'test/blah/'
+    maxWidth: 1200
+    filePrefix: test/blah/
