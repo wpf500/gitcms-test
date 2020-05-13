@@ -1,8 +1,8 @@
 {
   "my_image": {
-    "url": "https://cdn.thesyriacampaign.org/cms/a12ea42f-ec65-4e2c-a303-a943bab4d349.png",
-    "width": 0,
-    "height": 0
+    "url": "https://cdn.thesyriacampaign.org/cms/649bcc1d-83fd-4d8d-9d3d-b5a52aeab8fa.png",
+    "width": "1200",
+    "height": "675"
   },
   "my_title": "test if this is okay!",
   "my_html": "<p>Thi sis a test <u>titla</u></p>\n<p><strong>Blah!</strong></p>",
