@@ -53,7 +53,6 @@ uiSchema:
   my_html2: *rte
   my_image:
     ui:field: image
-    uploadPath: ./data
-    urlPrefix: /blah/
     aspectRatio: [16, 9]
-    maxWidth: 1200
+    maxWidth: 1200,
+    filePrefix: 'test/blah/'
